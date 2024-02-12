@@ -52,20 +52,6 @@ const DetailsPage = () => {
   const [loading, setLoading] = useState(true);
   const [isInWatchlist, setIsInWatchlist] = useState(false);
 
-  // useEffect(() => {
-  //   fetchDetails(type, id)
-  //     .then((res) => {
-  //       console.log(res, "res");
-  //       setDetails(res);
-  //     })
-  //     .catch((err) => {
-  //       console.log(err, "err");
-  //     })
-  //     .finally(() => {
-  //       setLoading(false);
-  //     });
-  // }, [type, id]);
-
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -122,8 +108,6 @@ const DetailsPage = () => {
       overview: details?.overview,
     };
 
-    // console.log(data, "data");
-    // addDocument("watchlist", data);
     const dataId = details?.id?.toString();
     await addToWatchlist(user?.uid, dataId, data);
     const isSetToWatchlist = await checkIfInWatchlist(user?.uid, dataId);

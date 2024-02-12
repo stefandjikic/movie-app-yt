@@ -70,7 +70,7 @@ const Movies = () => {
             )
           )}
       </Grid>
-      {/* Pagination */}
+
       <PaginationComponent
         activePage={activePage}
         totalPages={totalPages}
