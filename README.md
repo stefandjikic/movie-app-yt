@@ -1,8 +1,10 @@
-# React + Vite
+# Build & Deploy Movie App - Repo from my YouTube Tutorial
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Movie-App-Thumbnail](https://github.com/stefandjikic/movie-app-yt/assets/65912958/ef03ae73-1da2-49fa-a3d5-d0ebce7b75c8)
 
-Currently, two official plugins are available:
+## Technologies used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- Firebase
+- Chakra UI
+- TMDB API
